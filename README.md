@@ -1,4 +1,4 @@
-# Telegram Bot Vercel Boilerplate
+# 📦 Telegram Bot of Cubox based on Node.js and Telegraf for deploying on Vercel.
 
 Telegram Bot Vercel Boilerplate based on Node.js and [Telegraf](https://github.com/telegraf/telegraf) framework.
 
