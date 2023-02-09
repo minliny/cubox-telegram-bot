@@ -8,8 +8,11 @@ This template inspired by [Telegram Bot Boilerplate](https://github.com/yakovlev
 
 First rename `.env-sample` file to `.env` and fill in all necessary values.
 
+Get Cubox API token at: [reference to https://cubox.pro/c/api/save/](reference to https://cubox.pro/c/api/save/)
+
 ```
 BOT_TOKEN="<YOUR_BOT_API_TOKEN>"
+CUBOX_TOKEN="<YOUR_CUBOX_API_TOKEN>"
 ```
 
 ## Start your server
