@@ -18,8 +18,8 @@ CUBOX_TOKEN="<YOUR_CUBOX_API_TOKEN>"
 ## Start your server
 
 ```
-npm install
-npm dev
+pnpm install
+pnpm dev
 ```
 
 ## Production
