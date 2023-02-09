@@ -9,10 +9,7 @@
     "sourceMap": true,
     "outDir": "public",
     "lib": ["esnext", "dom"],
-    "resolveJsonModule": true,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"]
 }

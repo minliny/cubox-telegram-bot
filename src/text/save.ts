@@ -1,7 +1,7 @@
 import { Context } from 'telegraf';
 import createDebug from 'debug';
-import { request } from '@/utils/request';
-import { isURL } from '@/utils/fn';
+import { request } from '../utils/request';
+import { isURL } from '../utils/fn';
 
 const debug = createDebug('bot:save_content');
 
