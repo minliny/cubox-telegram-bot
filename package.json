@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Telegram Bot Vercel Boilerplate",
   "main": "src/index.ts",
+  "packageManager": "pnpm@7.26.3",
   "author": "Mark Pavlov (https://github.com/m7mark)",
   "homepage": "https://github.com/m7mark/telegram-bot-vercel-boilerplate",
   "dependencies": {
