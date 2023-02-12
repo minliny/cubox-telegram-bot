@@ -19,7 +19,7 @@ bot.command('intl', intl())
 bot.command('about', about())
 bot.action(Actions.SET_TOKEN, setToken)
 bot.action(Actions.SET_HOSTNAME, setHostname)
-bot.on('message', save())
+bot.on('text', save())
 bot.help(async (ctx, next) => {
   await ctx.reply('Send me a message')
   await next()

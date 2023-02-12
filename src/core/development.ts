@@ -1,10 +1,10 @@
 import type { Context, Telegraf } from 'telegraf'
-// import type { Update } from 'telegraf/types'
+import type { Update } from 'telegraf/types'
 import createDebug from 'debug'
 
 const debug = createDebug('bot:dev')
 
-const development = async (bot: Telegraf<Context<any>>) => {
+const development = async (bot: Telegraf<Context<Update>>) => {
   const botInfo = (await bot.telegram.getMe()).username
 
   debug('Bot runs in development mode')
