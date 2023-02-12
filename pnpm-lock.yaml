@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/debug': ^4.1.7
   '@types/node': ^18.11.18
+  '@vercel/edge-config': ^0.1.1
   '@vercel/ncc': ^0.36.0
   '@vercel/node': ^2.8.5
   axios: ^1.3.2
@@ -15,6 +16,7 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
+  '@vercel/edge-config': 0.1.1
   '@vercel/node': 2.9.2
   axios: 1.3.2_debug@4.3.4
   dotenv-cli: 6.0.0
@@ -358,6 +360,11 @@ packages:
 
   /@vercel/build-utils/6.2.1:
     resolution: {integrity: sha512-N02exe9Ip9mB1Jrbt/UT2+fOtSptT74M70AUpzNUeOVTn9801dMAGB2OKyHREnLYYmnuOqF/mrvIDEBWRH2pZQ==}
+    dev: false
+
+  /@vercel/edge-config/0.1.1:
+    resolution: {integrity: sha512-HDl+12tzW2RHIu8Y804kXg2VpZ02KVb7Nqsa+e1AFoACXXMb+7TfjI1wR19tXoDIu5enQz1dbat40YMEgaH13Q==}
+    engines: {node: '>=14.6'}
     dev: false
 
   /@vercel/ncc/0.36.1:
