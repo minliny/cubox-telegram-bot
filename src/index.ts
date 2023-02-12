@@ -2,7 +2,7 @@ import { Telegraf } from 'telegraf'
 
 import { start, update, intl, deleting, about } from './commands'
 import { setToken, setHostname } from './actions'
-import { VercelRequest, VercelResponse } from '@vercel/node'
+import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { development, production } from './core'
 import { save } from './text'
 import { Actions } from './constants'
